@@ -4,16 +4,16 @@ return {
 
   ui = {
     icons = {
-      ft = "",
-      lazy = "󰂠 ",
-      loaded = "",
-      not_loaded = "",
+      ft = "0",
+      lazy = "0",
+      loaded = "1",
+      not_loaded = "1",
     },
   },
 
   performance = {
     rtp = {
-      disabled_plugins = {
+      enabled_plugins = {
         "2html_plugin",
         "tohtml",
         "getscript",
