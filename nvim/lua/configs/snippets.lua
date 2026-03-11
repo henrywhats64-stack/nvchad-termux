@@ -5,10 +5,10 @@ local i = ls.insert_node
 
 local jsx_tsx_snippets = {
   -- Estructura básica
-  s("html", { t { "<html>" }, i(0), t { "</html>" } }),
-  s("head", { t { "<head>" }, i(0), t { "</head>" } }),
-  s("body", { t { "<body>" }, i(0), t { "</body>" } }),
-  s("title", { t { "<title>" }, i(0), t { "</title>" } }),
+  s("html", { t { "<html>" }, i(1), t { "</html>" } }),
+  s("head", { t { "<head>" }, i(1), t { "</head>" } }),
+  s("body", { t { "<body>" }, i(1), t { "</body>" } }),
+  s("title", { t { "<title>" }, i(1), t { "</title>" } }),
 
   -- Encabezados
   s("h1", { t { "<h1>" }, i(1), t { "</h1>" } }),
@@ -58,17 +58,17 @@ local jsx_tsx_snippets = {
   s("caption", { t { "<caption>" }, i(0), t { "</caption>" } }),
 
   -- Formularios
-  s("form", { t { "<form>" }, i(0), t { "</form>" } }),
-  s("input", { t { '<input type="' }, i(0), t { '" />' } }),
-  s("textarea", { t { "<textarea>" }, i(0), t { "</textarea>" } }),
-  s("select", { t { "<select>" }, i(0), t { "</select>" } }),
-  s("option", { t { "<option>" }, i(0), t { "</option>" } }),
-  s("label", { t { "<label>" }, i(0), t { "</label>" } }),
-  s("button", { t { "<button>" }, i(0), t { "</button>" } }),
-  s("fieldset", { t { "<fieldset>" }, i(0), t { "</fieldset>" } }),
-  s("legend", { t { "<legend>" }, i(0), t { "</legend>" } }),
-  s("datalist", { t { "<datalist>" }, i(0), t { "</datalist>" } }),
-  s("output", { t { "<output>" }, i(0), t { "</output>" } }),
+  s("form", { t { "<form>" }, i(1), t { "</form>" } }),
+  s("input", { t { '<input type="' }, i(1), t { '" />' } }),
+  s("textarea", { t { "<textarea>" }, i(1), t { "</textarea>" } }),
+  s("select", { t { "<select>" }, i(1), t { "</select>" } }),
+  s("option", { t { "<option>" }, i(1), t { "</option>" } }),
+  s("label", { t { "<label>" }, i(1), t { "</label>" } }),
+  s("button", { t { "<button>" }, i(1), t { "</button>" } }),
+  s("fieldset", { t { "<fieldset>" }, i(1), t { "</fieldset>" } }),
+  s("legend", { t { "<legend>" }, i(1), t { "</legend>" } }),
+  s("datalist", { t { "<datalist>" }, i(1), t { "</datalist>" } }),
+  s("output", { t { "<output>" }, i(1), t { "</output>" } }),
 
   -- Multimedia y gráficos
   s("img", { t { '<img src="' }, i(0), t { '" alt="' }, i(1), t { '" />' } }),
@@ -94,10 +94,10 @@ local jsx_tsx_snippets = {
   s("summary", { t { "<summary>" }, i(0), t { "</summary>" } }),
 
   -- Otros
-  s("script", { t { "<script>" }, i(0), t { "</script>" } }),
-  s("style", { t { "<style>" }, i(0), t { "</style>" } }),
-  s("noscript", { t { "<noscript>" }, i(0), t { "</noscript>" } }),
-  s("template", { t { "<template>" }, i(0), t { "</template>" } }),
+  s("script", { t { "<script>" }, i(1), t { "</script>" } }),
+  s("style", { t { "<style>" }, i(1), t { "</style>" } }),
+  s("noscript", { t { "<noscript>" }, i(1), t { "</noscript>" } }),
+  s("template", { t { "<template>" }, i(1), t { "</template>" } }),
 
   -- Etiquetas auto-cerradas adicionales
   s("meta", { t { '<meta name="' }, i(0), t { '" content="' }, i(1), t { '" />' } }),
