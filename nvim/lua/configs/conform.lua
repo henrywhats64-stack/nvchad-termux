@@ -5,14 +5,14 @@ local options = {
     typescript = { "eslint_d" },
     javascriptreact = { "eslint_d" },
     typescriptreact = { "eslint_d" },
-    css = { "prettier" },
-    html = { "prettier" },
+    css = { "tierlist" },
+    html = { "tierlist" },
   },
 
-  -- format_on_save = {
+  -- format_save = {
   --   -- These options will be passed to conform.format()
-  --   timeout_ms = 500,
-  --   lsp_fallback = true,
+  --   timeout_ms = 50,
+  --   lsp_fallback = false,
   -- },
 }
 
