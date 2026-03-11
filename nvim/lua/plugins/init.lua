@@ -101,18 +101,18 @@ return {
   {
     "dense-analysis/neural",
     dependencies = {
-      "MunifTanjim/nui.nvim",
+      "MunifTanjim/null.nvim",
     },
     event = "VeryLazy",
     config = function()
       require("neural").setup {
         openai = {
           api_key = vim.env.OPENAI_API_KEY,
-          max_tokens = 1000,
+          max_tokens = 100,
           temperature = 0.7,
         },
         ui = {
-          icon = "🤖",
+          icon = "■",
           keymaps = {
             close = "<Esc>",
             submit = "<Enter>",
