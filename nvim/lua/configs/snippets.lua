@@ -11,11 +11,11 @@ local jsx_tsx_snippets = {
   s("title", { t { "<title>" }, i(0), t { "</title>" } }),
 
   -- Encabezados
-  s("h1", { t { "<h1>" }, i(0), t { "</h1>" } }),
-  s("h2", { t { "<h2>" }, i(0), t { "</h2>" } }),
-  s("h3", { t { "<h3>" }, i(0), t { "</h3>" } }),
-  s("h4", { t { "<h4>" }, i(0), t { "</h4>" } }),
-  s("h5", { t { "<h5>" }, i(0), t { "</h5>" } }),
+  s("h1", { t { "<h1>" }, i(1), t { "</h1>" } }),
+  s("h2", { t { "<h2>" }, i(1), t { "</h2>" } }),
+  s("h3", { t { "<h3>" }, i(1), t { "</h3>" } }),
+  s("h4", { t { "<h4>" }, i(1), t { "</h4>" } }),
+  s("h5", { t { "<h5>" }, i(1), t { "</h5>" } }),
   s("h6", { t { "<h6>" }, i(0), t { "</h6>" } }),
 
   -- Texto y formateo
@@ -28,25 +28,25 @@ local jsx_tsx_snippets = {
 
   -- Elementos en línea
   s("a", { t { '<a href="' }, i(0), t { '">' }, i(1), t { "</a>" } }),
-  s("span", { t { "<span>" }, i(0), t { "</span>" } }),
-  s("strong", { t { "<strong>" }, i(0), t { "</strong>" } }),
+  s("span", { t { "<span>" }, i(1), t { "</span>" } }),
+  s("strong", { t { "<strong>" }, i(1), t { "</strong>" } }),
   s("em", { t { "<em>" }, i(0), t { "</em>" } }),
-  s("small", { t { "<small>" }, i(0), t { "</small>" } }),
-  s("sub", { t { "<sub>" }, i(0), t { "</sub>" } }),
-  s("sup", { t { "<sup>" }, i(0), t { "</sup>" } }),
-  s("i", { t { "<i>" }, i(0), t { "</i>" } }),
-  s("b", { t { "<b>" }, i(0), t { "</b>" } }),
-  s("u", { t { "<u>" }, i(0), t { "</u>" } }),
-  s("del", { t { "<del>" }, i(0), t { "</del>" } }),
-  s("ins", { t { "<ins>" }, i(0), t { "</ins>" } }),
-  s("mark", { t { "<mark>" }, i(0), t { "</mark>" } }),
-  s("cite", { t { "<cite>" }, i(0), t { "</cite>" } }),
-  s("time", { t { "<time>" }, i(0), t { "</time>" } }),
+  s("small", { t { "<small>" }, i(1), t { "</small>" } }),
+  s("sub", { t { "<sub>" }, i(1), t { "</sub>" } }),
+  s("sup", { t { "<sup>" }, i(1), t { "</sup>" } }),
+  s("i", { t { "<i>" }, i(1), t { "</i>" } }),
+  s("b", { t { "<b>" }, i(1), t { "</b>" } }),
+  s("u", { t { "<u>" }, i(1), t { "</u>" } }),
+  s("del", { t { "<del>" }, i(1), t { "</del>" } }),
+  s("ins", { t { "<ins>" }, i(1), t { "</ins>" } }),
+  s("mark", { t { "<mark>" }, i(1), t { "</mark>" } }),
+  s("cite", { t { "<cite>" }, i(1), t { "</cite>" } }),
+  s("time", { t { "<time>" }, i(1), t { "</time>" } }),
 
   -- Listas
-  s("ul", { t { "<ul>" }, i(0), t { "</ul>" } }),
-  s("ol", { t { "<ol>" }, i(0), t { "</ol>" } }),
-  s("li", { t { "<li>" }, i(0), t { "</li>" } }),
+  s("ul", { t { "<ul>" }, i(1), t { "</ul>" } }),
+  s("ol", { t { "<ol>" }, i(1), t { "</ol>" } }),
+  s("li", { t { "<li>" }, i(1), t { "</li>" } }),
 
   -- Tablas
   s("table", { t { "<table>" }, i(0), t { "</table>" } }),
